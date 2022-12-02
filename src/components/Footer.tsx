@@ -4,7 +4,7 @@ import ArrowIcon from "../assets/icon-arrow.svg";
 export function Footer() {
   return (
     <footer className="bg-white w-full h-[17vh]">
-      <div className="flex justify-between items-center h-full bg-zinc-200">
+      <div className="flex justify-between items-center h-full bg-[#ECECED]">
         <img src={ImgVideo} className="h-full" />
         <a href="" className="font-bold text-lg">
           FACEBOOK
