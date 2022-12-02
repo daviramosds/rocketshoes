@@ -4,7 +4,7 @@ import BagIcon from '../assets/icon-bag.svg'
 
 export function Header() {
   return (
-    <header className='flex items-center justify-center'>
+    <header className='flex items-center justify-center fixed left-0 top-0 w-full'>
       <ul className='flex items-center justify-between w-full px-16 py-8 font-bold text-lg'>
         <li className='w-11'>
           <img src={Logo} draggable={false}  />
